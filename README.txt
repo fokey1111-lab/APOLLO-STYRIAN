@@ -1,0 +1,1 @@
+Apollo project. Fixed logic and calculations: the first premium is invested immediately on the start date, date arithmetic is timezone-safe, partial period is supported, and data is updated via data/sp500.xlsx.
