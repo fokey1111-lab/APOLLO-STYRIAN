@@ -1,1 +1,1 @@
-Apollo project. Mobile inputs improved: annual premium and start date are optimized for manual input on phones. Logic and calculations unchanged. Update data by replacing data/sp500.xlsx.
+Apollo project v2. Mobile manual input is enforced: premium and date are plain text inputs. Date must be entered as YYYY-MM-DD. Logic and calculations unchanged. Update data by replacing data/sp500.xlsx.
