@@ -1,1 +1,1 @@
-Apollo project. Fixed logic and calculations: the first premium is invested immediately on the start date, date arithmetic is timezone-safe, partial period is supported, and data is updated via data/sp500.xlsx.
+Apollo project. Based on the uploaded current version. Only one change was made: in mobile view the annual premium field is easier to edit manually, while still enforcing the 1500 to 10000 range. Date field and all calculations remain unchanged.
