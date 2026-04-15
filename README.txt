@@ -1,1 +1,1 @@
-Apollo project. Based on the uploaded current version. Only one change was made: in mobile view the annual premium field is easier to edit manually, while still enforcing the 1500 to 10000 range. Date field and all calculations remain unchanged.
+Apollo project. Mobile premium selection improved: on phones the annual premium can now be chosen with a slider or entered manually. Desktop behavior remains unchanged. Date field and calculations remain unchanged.
