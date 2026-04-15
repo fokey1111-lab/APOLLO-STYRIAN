@@ -1,1 +1,1 @@
-Apollo project v2. Mobile manual input is enforced: premium and date are plain text inputs. Date must be entered as YYYY-MM-DD. Logic and calculations unchanged. Update data by replacing data/sp500.xlsx.
+Apollo project. Fixed logic and calculations: the first premium is invested immediately on the start date, date arithmetic is timezone-safe, partial period is supported, and data is updated via data/sp500.xlsx.
