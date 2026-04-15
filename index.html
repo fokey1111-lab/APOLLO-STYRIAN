@@ -24,6 +24,12 @@ label{display:block;font-size:14px;color:#e2e8f0;margin-bottom:8px}
 input{width:100%;padding:14px;border-radius:14px;border:1px solid #334155;background:#020617;color:#fff;font-size:16px;outline:none;box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
 .checkbox-label{display:flex;align-items:flex-start;gap:10px}
 .checkbox-label input{width:auto;margin-top:3px}
+#annualPremium,#startDate{-webkit-appearance:none;appearance:none}
+#annualPremium{font-size:18px}
+#startDate{font-size:18px;min-height:52px}
+@media (max-width:960px){
+  #annualPremium,#startDate{font-size:18px;padding:16px}
+}
 .hint{margin-top:8px;color:var(--muted);font-size:12px;line-height:1.5}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:16px}
 .stat,.info{padding:20px}
@@ -76,13 +82,13 @@ canvas{width:100%;height:100%;display:block}
       <div class="panel-title">Параметры калькулятора</div>
       <div class="field">
         <label>Годовая премия</label>
-        <input type="number" id="annualPremium" value="5000" min="1500" max="10000" step="100"/>
-        <div class="hint" id="premiumHint">Допустимо от $1,500 до $10,000 · сейчас: $5,000</div>
+        <input type="number" id="annualPremium" value="5000" min="1500" max="10000" step="100" inputmode="decimal" pattern="[0-9]*" autocomplete="off"/>
+        <div class="hint" id="premiumHint">Допустимо от $1,500 до $10,000 · сейчас: $5,000. В мобильной версии поле можно вводить вручную.</div>
       </div>
       <div class="field">
         <label>Дата старта</label>
-        <div class="hint">Дату можно менять вручную в пределах всей доступной истории.</div>
-        <input type="date" id="startDate"/>
+        <div class="hint">Дату можно менять вручную в пределах всей доступной истории. В мобильной версии ручной ввод разрешен.</div>
+        <input type="date" id="startDate" autocomplete="off"/>
       </div>
       <div class="field">
         <label>Безрисковая ставка для расчета</label>
